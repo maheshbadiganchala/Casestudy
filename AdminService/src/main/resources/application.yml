@@ -1,0 +1,9 @@
+server:
+  port: 8085
+  
+spring:  data:    mongodb:      uri: mongodb+srv://demo:demo@cluster0.nresu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority  application:    name: admin-service
+      
+eureka:  instance:    hostname: localhost
+springdoc:  swagger-ui:    path: /swagger-ui.html     
+jwt:
+  secret: key420
