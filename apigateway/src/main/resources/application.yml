@@ -1,0 +1,9 @@
+server:
+  port: 8008
+  
+spring:  application:    name: apigateway
+  
+zuul:  routes:    admin-service:
+      url: http://localhost:8081
+    customer-service:
+      url: http://localhost:8082
